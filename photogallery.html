@@ -44,10 +44,41 @@
   </header>
 
   <main>
-    
-    
+    <div class="mt-5 pt-5">
+    <h1 class="text-center">Fotogalerie</h1>
+    <div class="gallery">
+        <!-- Náhledy obrázků                             data large odkazuje na velký obrázek-->
+        <img src="nahled/1.jpg" data-large="velkeobrazky/1.jpg" alt="Obrázek 1" loading="lazy"> 
+        <img src="velkeobrazky/2.jpg" data-large="velkeobrazky/2.jpg" alt="Obrázek 2" loading="lazy">
+        <img src="velkeobrazky/3.jpg" data-large="velkeobrazky/3.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/4.jpg" data-large="velkeobrazky/4.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/5.jpg" data-large="velkeobrazky/5.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/6.jpg" data-large="velkeobrazky/6.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/7.jpg" data-large="velkeobrazky/7.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/8.jpg" data-large="velkeobrazky/8.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/9.jpg" data-large="velkeobrazky/9.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/10.jpg" data-large="velkeobrazky/10.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/11.jpg" data-large="velkeobrazky/11.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/12.jpg" data-large="velkeobrazky/12.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/13.jpg" data-large="velkeobrazky/13.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/14.jpg" data-large="velkeobrazky/14.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/15.jpg" data-large="velkeobrazky/15.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/16.jpg" data-large="velkeobrazky/16.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/17.jpg" data-large="velkeobrazky/17.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/18.jpg" data-large="velkeobrazky/18.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/19.jpg" data-large="velkeobrazky/19.jpg" alt="Obrázek 3" loading="lazy">
+        <img src="velkeobrazky/20.jpg" data-large="velkeobrazky/20.jpg" alt="Obrázek 3" loading="lazy">
+        <!-- Přidej další obrázky -->
+    </div>
+          
+      <!-- Lightbox                                       modalni okno pro zobrazeni obrazku. Src musí zůstat prázdne, aby mohl JS při každém otevření lightboxu zobrazit správný obrázek-->
+      <div class="lightbox mt-5 mb-5 pb-3" id="lightbox">
+          <span class="close mt-3" onclick="closeLightbox()">&times;</span>
+          <img id="lightbox-img" src="" alt="Zvětšený obrázek">
+      </div> 
+    </div>
   </main>
-  
+
   <footer class="custom-footer">
     <div class="container mt-1 py-1">
         <div class="row justify-content-between">
@@ -78,6 +109,7 @@
   </footer>
 
   <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
+  <script src="gallery.js"></script>
 
 </body>
 </html>            
