@@ -3,25 +3,41 @@ součástí webových stránek bude sekce Fotogalerie, která bude obsahovat ale
 
 dále budou součástí webových stránek alespoň 2 CSS styly (hlavní CSS styl - např. CSS frameworku, custom styl), alespoň 2 JS soubory (např. jQuery, JS pro calendar picker, fotogalerii, apod.)
 
-hlavní strana bude obsahovat 5 obrázků
-v každém HTML souboru budou správně vyplněny značky <title>, <h1>, <h2>, <h3> (případně další úrovně pokud je potřeba), meta značky a dobře strukturovaný obsah tvořený pomocí zásad copywritingu - v obsahu se budou ve vhodném poměru vyskytovat klíčová slova a fráze, které jste si pro projekt zvolili (pro SEO optimalizaci při vyhledávání pomocí internetového vyhledávače)
-každý HTML soubor bude pojmenován SEO-friendly způsobem
-jednotlivé HTML soubory (stránky) doplňte o vhodné URL odkazy na další podstránky Vašeho webu (např. v text, v obsahu stránky) mimo navigační menu
+
+---------------------JESTLI ZBUDE ČAs-------------------
+    DOPLNIT ALT TAGY!!
+
+    
 
 ---------------------HOTOVO-----------------------------
 součástí webových stránek bude hlavní nadpis nebo logo, navigační menu, obsahová část a patička obsahující kontaktní a další informace
+
 webové stránky budou obsahovat alespoň 5 vzájemně provázaných (pomocí navigačního menu) HTML souborů, přičemž každý HTML soubor reprezentuje jednu podstránku (např. O nás, Služby, Produkty, Kontakt, apod.)
+
+v každém HTML souboru budou správně vyplněny značky <h1>, <h2>, <h3> (případně další úrovně pokud je potřeba), meta značky a dobře strukturovaný obsah tvořený pomocí zásad copywritingu - v obsahu se budou ve vhodném poměru vyskytovat klíčová slova a fráze, které jste si pro projekt zvolili (pro SEO optimalizaci při vyhledávání pomocí internetového vyhledávače)
+
+hlavní strana bude obsahovat 5 obrázků
+
+každý HTML soubor bude pojmenován SEO-friendly způsobem
+
+jednotlivé HTML soubory (stránky) doplňte o vhodné URL odkazy na další podstránky Vašeho webu (např. v text, v obsahu stránky) mimo navigační menu
+
 
 
 
 ------------------OPTIMALIZACE--------------------------
-na webové stránky aplikujte optimalizaci velikosti kódu (minimálně minifikace, případně caching, apod.), techniku Lazy loading pro načítání obrázků, optimalizaci rychlosti načítání webu - co nejnižší hodnota metriky First Contentful Paint (CFP)
-webové stránky propojte s nástrojem Google Search Console, dále doplňte soubor robots.txt do kořenového adresáře webu a přidejte vygenerovanou mapu stránek ve formě sitemap.xml, dále aktivujte indexaci webových stránek v nástroji Google Search Console
+optimalizaci rychlosti načítání webu - co nejnižší hodnota metriky First Contentful Paint (CFP)
+
+dále aktivujte indexaci webových stránek v nástroji Google Search Console
 po dobu cca 10-14 dní sledujte, zda se web zaindexoval do internetového vyhledávače Google a výsledky vyhledávání Vašeho webu na Vámi zvolená klíčová slova zaznamenejte do PDF souboru (popis viz níže)
 webové stránky propojte se nástrojem pro sledování návštěvnosti Google Analytics a zajímavé statistiky o návštěvnosti a s tím spojených datech zaznamenejte do PDF souboru
 
 ---------------------HOTOVO-----------------------------
+na webové stránky aplikujte optimalizaci velikosti kódu (minimálně minifikace, případně caching, apod.), ------------musím minifikovat i bootstrap? 
 
+techniku Lazy loading pro načítání obrázků --- můžu mít na větší fotografie formát jpg? 
+
+webové stránky propojte s nástrojem Google Search Console, dále doplňte soubor robots.txt do kořenového adresáře webu a přidejte vygenerovanou mapu stránek ve formě sitemap.xml,
 
 
 

@@ -1,10 +1,1 @@
-document.querySelectorAll('.gallery img').forEach(img => {
-    img.addEventListener('click', function () {
-        document.getElementById('lightbox-img').src = this.dataset.large;
-        document.getElementById('lightbox').style.display = 'flex';
-    });
-});
-
-function closeLightbox() {
-    document.getElementById('lightbox').style.display = 'none';
-}
+const images=document.querySelectorAll(".gallery img"),lightbox=document.getElementById("lightbox"),lightboxImg=document.getElementById("lightbox-img");let currentIndex=0;function closeLightbox(){lightbox.style.display="none"}function changeImage(e){currentIndex+=e,currentIndex<0&&(currentIndex=images.length-1),currentIndex>=images.length&&(currentIndex=0),lightboxImg.src=images[currentIndex].dataset.large}images.forEach(((e,t)=>{e.addEventListener("click",(()=>{currentIndex=t,lightboxImg.src=e.dataset.large,lightbox.style.display="flex"}))})),lightbox.addEventListener("click",(function(e){e.target===this&&closeLightbox()}));

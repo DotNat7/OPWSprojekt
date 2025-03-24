@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DentalCare</title>
+  <meta name="description" content="Navštivte naši zubní ordinaci v Českém Těšíně pro kvalitní stomatologickou péči. Nabízíme kvalitní zubní péči pro rodiny." />
+  <title>DentalCare - Zubní ordinace v Českém Těšíně</title>
   <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="./index.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -12,237 +13,290 @@
 
 <body>
   <header>
-      <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white">
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">
-            <img src="photos/LOGO.png" style="height: 3.5rem; width: 12rem;" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">&nbsp;O nás</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./procedures.html">&nbsp;Výkony/Cenník</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./team.html">&nbsp;Náš tým</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">&nbsp;Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./photogallery.html">&nbsp;Fotogalerie</a>
-              </li>           
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="photos/LOGO.png" style="height: 3.5rem; width: 12rem;" alt="logo DentalCare">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">&nbsp;O nás</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sluzby.html">&nbsp;Služby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nas-tym.html">&nbsp;Náš tým</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./kontakty.html">&nbsp;Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./fotogalerie.html">&nbsp;Fotogalerie</a>
+            </li>           
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
   </header>
 
-    <main>
-      <div class="carousel mt-5 pt-4">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="photos/totu.jpeg" class="d-block w-100" alt="totu">
-              <div class="carousel-caption d-none d-md-block mt-5">
-                <h1 class="display-3 fw-bold">Your Smile, Our Passion</h1>
-                <p class="lead">Experience world-class dental care with our team of expert professionals using the latest technology and techniques.</p>
-                <a href="#" class="btn btn-primary btn-lg">Schedule Appointment</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="./photos/chlop.jpeg" class="d-block w-100" alt="chlap">
-              <div class="carousel-caption d-none d-md-block mt-5">
-                <h1 class="display-3 fw-bold">Your Smile, Our Passion</h1>
-                <p class="lead">Experience world-class dental care with our team of expert professionals using the latest technology and techniques.</p>
-                <a href="#" class="btn btn-primary btn-lg">Schedule Appointment</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="./photos/rozmazane.jpeg" class="d-block w-100" alt="rozmazane">
-              <div class="carousel-caption d-none d-md-block mt-5">
-                <h1 class="display-3 fw-bold">Your Smile, Our Passion</h1>
-                <p class="lead">Experience world-class dental care with our team of expert professionals using the latest technology and techniques.</p>
-                <a href="book.html" class="btn btn-primary btn-lg">Schedule Appointment</a>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+  <main>
+    <div class="hero mt-5 pt-5">
+      <div class="container hero-content">
+          <h1 class="display-5 fw-bold">Vítejte v zubní ordinaci <br> v Českém Těšíně</h1>
+          <p class="mt-2">Naše zubní ordinace nabízí širokou škálu služeb zaměřených na zdraví a krásu vašeho úsměvu. Postaráme se o všechny vaše stomatologické potřeby. </p>
       </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3">Naše služby</h2>
+            <p class="lead text-muted">S námi zůstane váš úsměv krásný! Objevte naše služby:</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row g-4">
+          <div class="col-md-6">
+              <div class="procedure-card card shadow-lg border-0">
+                  <div class="card-body">
+                      <h3 class="fw-bold">Prevence</h3>
+                      <p class="text-muted">Zdravý úsměv začíná pravidelnou preventivní péčí – včasné prohlídky jsou základem pro dlouhodobé zdraví vašich zubů.</p>
+                      <a href="" class="btn btn-secondary btn-md">Detail</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="procedure-card card shadow-lg border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold">Dentální hygiena</h3>
+                    <p class="text-muted">Zdravý úsměv začíná pravidelnou preventivní péčí – včasné prohlídky jsou základem pro dlouhodobé zdraví vašich zubů.</p>
+                    <a href="" class="btn btn-secondary btn-md">Detail</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="procedure-card card shadow-lg border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold">Estetická stomatologie</h3>
+                    <p class="text-muted">Zdravý úsměv začíná pravidelnou preventivní péčí – včasné prohlídky jsou základem pro dlouhodobé zdraví vašich zubů.</p>
+                    <a href="" class="btn btn-secondary btn-md">Detail</a>
+                </div>
+            </div>
+          </div>  
+          <div class="col-md-6">
+            <div class="procedure-card card shadow-lg border-0">
+                <div class="card-body">
+                    <h3 class="fw-bold">Dětská stomatologie</h3>
+                    <p class="text-muted">Zdravý úsměv začíná pravidelnou preventivní péčí – včasné prohlídky jsou základem pro dlouhodobé zdraví vašich zubů.</p>
+                    <a href="" class="btn btn-secondary btn-md">Detail</a>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div style="background-color: #EAF0F6;">
+      <div class="container mt-5 pt-5 mb-5 pb-5">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3">Léčebné plány</h2>
+            <p class="lead text-muted">Vyberte si jeden z naších balíčků</p>
+        </div>
 
         <div class="container mt-5">
-            <div class="text-center mb-5">
-                <h2 class="display-4 mb-3">Our Procedures</h2>
-                <p class="lead text-muted">Advanced dental procedures for optimal oral health</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="procedure-card card">
-                        <div class="card-body">
-                            <h3 class="bi bi-shield-check procedure-icon fw-bold">Preventive Care</h3>
-                            <ul class="list-unstyled mt-3">
-                                <li><i class="bi bi-check2-circle me-2"></i>Regular Checkups</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Professional Cleaning</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Digital X-rays</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Fluoride Treatment</li>
-                            </ul>
-                            <a href="procedures.html" class="btn btn-secondary btn-md">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="procedure-card card">
-                        <div class="card-body">
-                            <h3 class="bi bi-stars procedure-icon fw-bold">Cosmetic Procedures</h3>
-                            <ul class="list-unstyled mt-3">
-                                <li><i class="bi bi-check2-circle me-2"></i>Teeth Whitening</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Porcelain Veneers</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Dental Bonding</li>
-                                <li><i class="bi bi-check2-circle me-2"></i>Smile Makeover</li>
-                            </ul>
-                            <a href="procedures.html" class="btn btn-secondary btn-md">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div style="background-color: #EAF0F6;">
-        <div class="container mt-5 pt-5 mb-5 pb-5">
-            <div class="text-center mb-5">
-                <h2 class="display-4 mb-3">Treatment Plans</h2>
-                <p class="lead text-muted">Affordable dental care packages for everyone</p>
-            </div>
-            <div class="container mt-5">
-              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                  <div class="col mb-4">
-                      <div class="card shadow-sm" style="max-width: 300px; margin: auto;">
-                          <div class="card-body">
-                              <h5 class="card-title fw-bold">Basic Care $99</h5>
-                              <ul class="list-unstyled mt-3 mb-4">
-                              <li><i class="bi bi-check2-circle me-2"></i>Dental Examination</li>
-                              <li><i class="bi bi-check2-circle me-2"></i>X-rays</li>
-                              <li><i class="bi bi-check2-circle me-2"></i>Basic Cleaning</li>
-                              <li><i class="bi bi-check2-circle me-2"></i>Treatment Plan</li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col mb-4">
-                      <div class="card shadow-sm" style="max-width: 300px; margin: auto;">
-                          <div class="card-body">
-                              <h5 class="card-title fw-bold">Complete Care $199</h5>
-                              <ul class="list-unstyled mt-3 mb-4">
-                              <li><i class="bi bi-check2-circle me-2"></i>Everything in Basic</li>
-                              <li><i class="bi bi-check2-circle me-2"></i>Fluoride Treatment</li>
-                              <li><i class="bi bi-check2-circle me-2"></i>Deep Cleaning</li>
-                              <li><i class="bi bi-check2-circle me-2"></i>Teeth Polishing</li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col mb-4">
-                      <div class="card shadow-sm" style="max-width: 300px; margin: auto;">
-                          <div class="card-body">
-                              <h5 class="card-title fw-bold">Premium Care $299</h5>
-                              <ul class="list-unstyled mt-3 mb-4">
-                                  <li><i class="bi bi-check2-circle me-2"></i>Comprehensive Examination</li>
-                                  <li><i class="bi bi-check2-circle me-2"></i>Advanced Cleaning</li>
-                                  <li><i class="bi bi-check2-circle me-2"></i>Teeth Whitening</li>
-                                  <li><i class="bi bi-check2-circle me-2"></i>Customized Treatment Plan</li>
-                              </ul>
-                          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col mb-4">
+                  <div class="card shadow-lg border-0" style="max-width: 300px; margin: auto;">
+                      <div class="card-body">
+                        <h3 class="card-title fw-bold">Základní prohlídka</h3>
+                        <ul class="text-muted mt-2">
+                            <li><i class="bi bi-check2-circle me-2"></i>Komplexní zhodnocení zdraví zubů.</li>
+                            <li><i class="bi bi-check2-circle me-2"></i>Rodinná anamnéza pro identifikaci problémů s ústy.</li>
+                            <li><i class="bi bi-check2-circle me-2"></i>Kontrola aktuálních stavů plomb a případná doporučení pro údržbu.</li>
+                        </ul>
                       </div>
                   </div>
               </div>
-          </div> 
+              <div class="col mb-4">
+                  <div class="card shadow-lg border-0" style="max-width: 300px; margin: auto;">
+                      <div class="card-body">
+                        <h3 class="card-title fw-bold">Dentální hygiena</h3>
+                        <ul class="text-muted mt-2">
+                            <li><i class="bi bi-check2-circle me-2"></i>Vše ze základní prohlídky pro komplexní péči.</li>
+                            <li><i class="bi bi-check2-circle me-2"></i>Fluoridová léčba pro posílení skloviny a ochranu proti kazu.</li>
+                            <li><i class="bi bi-check2-circle me-2"></i>Hloubkové čištění pro odstranění plaku a zubního kamene.</li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-4">
+                  <div class="card shadow-lg border-0" style="max-width: 300px; margin: auto;">
+                      <div class="card-body">
+                        <h3 class="card-title fw-bold">Prémiová péče</h3>
+                        <ul class="text-muted">
+                            <li><i class="bi bi-check2-circle me-2"></i>Vyšetření pro důkladnou analýzu vašeho ústního zdraví.</li>
+                            <li><i class="bi bi-check2-circle me-2"></i>Pokročilé čištění pro maximální odstranění zubního plaku.</li>
+                            <li><i class="bi bi-check2-circle me-2"></i>Whitening (bělení zubů) pro zářivě bílý úsměv.</li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div> 
-        </div>  
+      </div> 
+    </div>  
 
-        <div class="container mt-4 pt-4">
-            <div class="text-center mb-5">
-                <h2 class="display-4 mb-3">About Us</h2>
-                <p class="lead text-muted">Welcome to DentalCare, where your smile is our top priority!</p>
+    <div class="container mt-4 pt-4">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-2">Náš tým</h2>
+            <p class="lead text-muted">Naše ordinace se pyšní týmem kvalifikovaných zubních lékařů a specialistů. Jsme připraveni poskytnout kvalitní péči.</p>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-lg border-0 text-center p-4 mb-4">
+                <img class="img-fluid rounded-circle mx-auto d-block" src="photos/dentist1.jpg" alt="Mark Novak" style="height: 16rem; width: 16rem;">
+                <h2 class="mt-4 mb-0">MDDr. Mark Novak</h2>
+                <p class="lead text-muted">Zubní lékař</p>
+                <a href="nas-tym.html" class="btn btn-secondary">Detail</a>
             </div>
         </div>
-        <div class="container">
-          <div class="row d-flex flex-wrap justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-              <div class="text-center">
-                <img src="photos/picture.jpg" class="img-fluid rounded-circle" alt="profilovka" style="height: 16rem; width: 16rem;">
-                <h2 class="text-center mt-3">Mark Novak</h2>
-              </div>
-              <div class="d-flex justify-content-center mt-3 mb-5">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#firstModal">
-                  Get to know me!
-                </button>
-               </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-lg border-0 text-center p-4 mb-4">
+                <img class="img-fluid rounded-circle mx-auto d-block" src="photos/dentist1.jpg" alt="Anna Veselá" style="height: 16rem; width: 16rem;">
+                <h2 class="mt-4 mb-0">MDDr. Anna Veselá</h2>
+                <p class="lead text-muted">Zubní lékař</p>
+                <a href="nas-tym.html" class="btn btn-secondary">Detail</a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-              <div class="text-center">
-                <img src="photos/dentist1.jpg" class="img-fluid rounded-circle" alt="profilovka" style="height: 16rem; width: 16rem;">
-                <h2 class="text-center mt-3">Anna Vesela</h2>
-              </div>
-              <div class="d-flex justify-content-center mt-3 mb-5">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#firstModal">
-                  Get to know me!
-                </button>
-              </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-lg border-0 text-center p-4 mb-4">
+                <img class="img-fluid rounded-circle mx-auto d-block" src="photos/dentist1.jpg" alt="Lucie Havelová" style="height: 16rem; width: 16rem;">
+                <h2 class="mt-4 mb-0">Bc. Lucie Havelová</h2>
+                <p class="lead text-muted">Dentální hygienistka</p>
+                <a href="nas-tym.html" class="btn btn-secondary">Detail</a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-              <div class="text-center">
-                <img src="photos/nurse.jpg" class="img-fluid rounded-circle" alt="profilovka" style="height: 16rem; width: 16rem;">
-                <h2 class="text-center mt-3">Lucie Havelova</h2>
-              </div>
-              <div class="d-flex justify-content-center mt-3 mb-5">
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#firstModal">
-                  Get to know me!
-                </button>
-              </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-lg border-0 text-center p-4 mb-4">
+                <img class="img-fluid rounded-circle mx-auto d-block" src="photos/dentist1.jpg" alt="Ingrid Pavlová" style="height: 16rem; width: 16rem;">
+                <h2 class="mt-4 mb-0">Ingrid Pavlová</h2>
+                <p class="lead text-muted">Zubní instrumentářka</p>
+                <a href="nas-tym.html" class="btn btn-secondary">Detail</a>
             </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-lg border-0 text-center p-4 mb-4">
+                <img class="img-fluid rounded-circle mx-auto d-block" src="photos/dentist1.jpg" alt="Denis Barta" style="height: 16rem; width: 16rem;">
+                <h2 class="mt-4 mb-0">Mgr. Denis Barta</h2>
+                <p class="lead text-muted">Zubní instrumentář</p>
+                <a href="nas-tym.html" class="btn btn-secondary">Detail</a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="card shadow-lg border-0 text-center p-4 mb-4">
+              <img class="img-fluid rounded-circle mx-auto d-block" src="photos/dentist1.jpg" alt="Denis Barta" style="height: 16rem; width: 16rem;">
+              <h2 class="mt-4 mb-0">Mgr. Denis Barta</h2>
+              <p class="lead text-muted">Zubní instrumentář</p>
+              <a href="nas-tym.html" class="btn btn-secondary">Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: #EAF0F6;">
+      <div class="container mt-3 pt-5 mb-5 pb-5">
+        <div class="text-center mb-5">
+            <h2 class="display-4 mb-3">Kontakty</h2>
+            <p class="lead text-muted">Chcete-li se dozvědět více nebo si rezervovat termín, neváhejte nás kontaktovat.</p>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row g-4">
+              <div class="col-12 col-sm-6 col-md-4">
+                  <div class="procedure-card card shadow-lg border-0">
+                      <div class="card-body text-center">
+                          <span class="fw-bold">+420 123 456 789</span>
+                          <div class="text-muted">Zavolejte nám</div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-12 col-sm-6 col-md-4">
+                  <div class="procedure-card card shadow-lg border-0">
+                      <div class="card-body text-center">
+                          <span class="fw-bold">
+                              <a href="mailto:adresa@gmail.com">adresa@gmail.com</a>
+                          </span>
+                          <div class="text-muted">Napište nám</div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-12 col-sm-6 col-md-4">
+                  <div class="procedure-card card shadow-lg border-0">
+                      <div class="card-body text-center">
+                          <span class="fw-bold">
+                              <a href="https://facebook.com/" target="_blank">DentalCare</a>
+                          </span>
+                          <div class="text-muted">Sledujte nás na Facebooku</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+      
+      </div>
+    </div>
+
+    <div class="container mt-4 pt-4">
+      <div class="text-center mb-5">
+          <h2 class="display-4 mb-2">Spolupracujeme</h2>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+              <img class="img-fluid" src="photos/pojistovny/ministerstvo_vnitra.png" alt="Pojišťovna 1">
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+              <img class="img-fluid" src="photos/pojistovny/rbp.png" alt="Pojišťovna 2">
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+              <img class="img-fluid" src="photos/pojistovny/vozp.png" alt="Pojišťovna 3">
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+              <img class="img-fluid" src="photos/pojistovny/vzp.png" alt="Pojišťovna 4">
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+              <img class="img-fluid" src="photos/pojistovny/čpzp.png" alt="Pojišťovna 5">
           </div>
       </div>
-        
-        <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="firstModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-          <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="firstModalLabel"><b>Mark Novak</b></h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <h3>Education</h3>
-                <p class="text-muted">Graduated from Charles University, Faculty of Medicine in Prague.</p>
-                <h3>Experience</h3>
-                <p class="text-muted">With over 10 years of experience in general and cosmetic dentistry, Mark specializes in restorative procedures like dental implants and crowns. He is known for his gentle approach and attention to detail, making patients feel at ease even during complex treatments.</p>
-                </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
 
-    </main>
-    <footer class="custom-footer">
+
+
+     
+
+    
+
+
+
+  </main>
+
+    <footer class="custom-footer mt-5">
       <div class="container mt-1 py-1">
           <div class="row justify-content-between">
           <div class="col-lg-5 col-sm-6 mb-3 footer-col">
@@ -250,9 +304,10 @@
               <p>
               MDDr. Pavla Nováková<br>
               Na Pardubě 1568/9a<br>
-              737 01 Český Těšín<br><br>
+              737 01 Český Těšín<br>
               Tel.: 555 222 666<br>
-              E-mail: <a href="mailto:pavlanovakova@gmail.com">pavlanovakova@gmail.com</a>
+              E-mail: <a href="mailto:pavlanovakova@gmail.com">pavlanovakova@gmail.com</a><br>
+              Facebook: <a href="https://facebook.com/" target="_blank">DentalCare</a>
               </p>
           </div>
           <div class="col-lg-5 col-sm-6 footer-col">
